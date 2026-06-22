@@ -224,6 +224,42 @@
     </message>
 </context>
 <context>
+    <name>ConnectionUiController</name>
+    <message>
+        <location filename="../ui/controllers/connectionUiController.cpp" line="58"/>
+        <source>Connecting...</source>
+        <translation>در حال ارتباط...</translation>
+    </message>
+    <message>
+        <location filename="../ui/controllers/connectionUiController.cpp" line="65"/>
+        <source>Connected</source>
+        <translation>متصل</translation>
+    </message>
+    <message>
+        <location filename="../ui/controllers/connectionUiController.cpp" line="74"/>
+        <source>Reconnecting...</source>
+        <translation>اتصال دوباره...</translation>
+    </message>
+    <message>
+        <location filename="../ui/controllers/connectionUiController.h" line="65"/>
+        <location filename="../ui/controllers/connectionUiController.cpp" line="79"/>
+        <location filename="../ui/controllers/connectionUiController.cpp" line="94"/>
+        <location filename="../ui/controllers/connectionUiController.cpp" line="100"/>
+        <source>Connect</source>
+        <translation>اتصال</translation>
+    </message>
+    <message>
+        <location filename="../ui/controllers/connectionUiController.cpp" line="84"/>
+        <source>Disconnecting...</source>
+        <translation>قطع ارتباط...</translation>
+    </message>
+    <message>
+        <location filename="../ui/controllers/connectionUiController.cpp" line="89"/>
+        <source>Preparing...</source>
+        <translation>در حال آماده‌سازی...</translation>
+    </message>
+</context>
+<context>
     <name>ConnectionTypeSelectionDrawer</name>
     <message>
         <location filename="../ui/qml/Components/ConnectionTypeSelectionDrawer.qml" line="36"/>
@@ -2173,6 +2209,49 @@ Already installed containers were found on the server. All installed containers 
         <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="218"/>
         <source>Cannot reset settings during active connection</source>
         <translation>نمی‌توان تنظیمات را در حین اتصال فعال بازنشانی کرد.</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="221"/>
+        <source>Color theme</source>
+        <translation>تم رنگی</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="222"/>
+        <source>System</source>
+        <translation>سیستم</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="222"/>
+        <source>Light</source>
+        <translation>روشن</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Pages2/PageSettingsApplication.qml" line="222"/>
+        <source>Dark</source>
+        <translation>تیره</translation>
+    </message>
+</context>
+<context>
+    <name>SelectThemeDrawer</name>
+    <message>
+        <location filename="../ui/qml/Components/SelectThemeDrawer.qml" line="47"/>
+        <source>Color theme</source>
+        <translation>تم رنگی</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Components/SelectThemeDrawer.qml" line="62"/>
+        <source>System</source>
+        <translation>سیستم</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Components/SelectThemeDrawer.qml" line="63"/>
+        <source>Light</source>
+        <translation>روشن</translation>
+    </message>
+    <message>
+        <location filename="../ui/qml/Components/SelectThemeDrawer.qml" line="64"/>
+        <source>Dark</source>
+        <translation>تیره</translation>
     </message>
 </context>
 <context>
